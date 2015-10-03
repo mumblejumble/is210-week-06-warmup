@@ -21,12 +21,9 @@ def flip_keys(to_flip):
 
     counter = 0
 
-    for stuff in to_flip:
-        REVERSED = stuff[::-1]
-        to_flip[counter] = REVERSED
+    for item in to_flip:
+        mylistvar = (item[::-1])
+        to_flip[counter] = mylistvar
         counter += 1
-        counter == len(to_flip)
 
     return to_flip
-
-LIST = [(1,2,3), 'abc']
