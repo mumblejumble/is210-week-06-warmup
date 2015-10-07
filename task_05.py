@@ -15,14 +15,18 @@ def flip_keys(to_flip):
         returns a list with flipped inner sequence
 
     examples:
+        >>>LIST = [(1, 2, 3), 'abc']
+        >>>NEW = flip_keys(LIST)
+        >>>LIST is NEW
+        True
         >>>print LIST
         [(3,2,1), 'cba']
     """
 
     counter = 0
 
-    for item in to_flip:
-        mylistvar = (item[::-1])
+    for flipvar in to_flip:
+        mylistvar = (flipvar[::-1])
         to_flip[counter] = mylistvar
         counter += 1
 
