@@ -6,9 +6,8 @@
 def flip_keys(to_flip):
     """using for loop to reverse the order of the inner sequence
 
-    arguments:
-        to_flip: parameter could be passed with interger or string.
-        mylistvar: reversing inner sequence in the given list.
+    args:
+        to_flip(list): could be passed with interger or string.
 
         for loop: every item's inner sequence in given list is flipped
 
