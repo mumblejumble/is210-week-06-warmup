@@ -26,8 +26,8 @@ def flip_keys(to_flip):
     counter = 0
 
     for flipvar in to_flip:
-        mylistvar = (flipvar[::-1])
-        to_flip[counter] = mylistvar
+        re_myvar = (flipvar[::-1])
+        to_flip[counter] = re_myvar
         counter += 1
 
     return to_flip
