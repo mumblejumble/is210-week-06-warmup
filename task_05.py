@@ -9,8 +9,6 @@ def flip_keys(to_flip):
     args:
         to_flip(list): could be passed with interger or string.
 
-        for loop: every item's inner sequence in given list is flipped
-
     returns:
         returns a list with flipped inner sequence
 
