@@ -8,7 +8,7 @@ def process_data(data):
 
     args:
         data: could be passed by integers.
-        
+
     returns:
         returns sum of dataset and mean of the dataset as a tuple
 
@@ -16,12 +16,8 @@ def process_data(data):
         process_data([1,2,3])
         >>>(6, 2.0)
     """
-
     mysum = 0
-
     for mynum in data:
         mysum += mynum
-
     myave = mysum/float(len(data))
-
     return mysum, myave
